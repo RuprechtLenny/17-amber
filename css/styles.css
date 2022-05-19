@@ -1,0 +1,22 @@
+body {
+    margin: auto;
+}
+
+.barre {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    padding: 20px 0;
+    max-width: 375px;
+    position: sticky;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+}
+
+.marchand,
+img {
+    height: 30px;
+}
