@@ -1,15 +1,17 @@
+/* font-family: gravesend-sans, sans-serif; */
+
 body {
-    margin: auto;
+    margin: 0 30px;
     background-color: #eddada;
+    font-family: gravesend-sans, sans-serif;
 }
 
 .barre {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 50px;
     padding: 20px 0;
     max-width: 375px;
-    position: sticky;
 }
 
 .menu-item {
@@ -22,8 +24,17 @@ img {
     height: 30px;
 }
 
+.btn-research,
+img {
+    padding-right: 15px;
+}
+
 .product-index {
     margin: 0 40px;
     width: auto;
     height: auto;
+}
+
+.home-page {
+    text-align: center;
 }
