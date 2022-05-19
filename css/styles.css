@@ -1,5 +1,6 @@
 body {
     margin: auto;
+    background-color: #eddada;
 }
 
 .barre {
@@ -16,7 +17,13 @@ body {
     align-items: center;
 }
 
-.marchand,
+.btn-menu,
 img {
     height: 30px;
+}
+
+.product-index {
+    margin: 0 40px;
+    width: auto;
+    height: auto;
 }
