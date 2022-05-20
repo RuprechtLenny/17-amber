@@ -24,9 +24,12 @@ nav {
     width: 100%;
 }
 
-.barre {
+.container {
     display: flex;
     justify-content: space-around;
+}
+
+.container-barre {
     height: 50px;
     padding: 20px 0;
     backdrop-filter: blur(5px);
@@ -37,7 +40,7 @@ nav {
     align-items: center;
 }
 
-.btn-menu {
+.btn {
     height: 30px;
 }
 
@@ -80,4 +83,29 @@ h2 {
 h3 {
     font-weight: 300;
     margin: 0;
+}
+
+footer {
+    background-color: #000032;
+    color: #eddada;
+    margin-top: 40px;
+}
+
+.btn-reseau {
+    padding-top: 30px;
+}
+
+.copyright {
+    margin-left: 30px;
+    font-size: 10px;
+}
+
+.btn-default {
+    display: flex;
+    height: 50px;
+}
+
+.container-default {
+    justify-content: flex-end;
+    padding: 20px 40px;
 }
