@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'Amelia';
+    src: url('Amelia-Regular.woff2') format('woff2'), url('Amelia-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bodoni Std';
+    src: url('BodoniStd-Poster.woff2') format('woff2'), url('BodoniStd-Poster.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 /* font-family: gravesend-sans, sans-serif;
 font-weight: 500;
 font-style: normal; */
@@ -10,6 +27,11 @@ font-style: normal; */
 
 /* font-family: gravesend-sans, sans-serif;
 font-weight: 300;
+font-style: normal; */
+
+
+/* font-family: synthemesc, sans-serif;
+font-weight: 400;
 font-style: normal; */
 
 html {
@@ -121,4 +143,58 @@ footer {
 .container-default {
     justify-content: flex-end;
     padding: 20px 40px;
+}
+
+.title-fifties {
+    font-family: 'Bodoni Std';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    text-align: center;
+    font-size: 50px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 20px 40px;
+    font-size: 10px;
+    border-radius: 20px;
+    /* box-shadow: #000032 5px; */
+    padding: 40px 15px;
+    height: 300px;
+}
+
+.btn-cart {
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin: 0;
+}
+
+.btn-like {
+    background-color: red;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 10px 10px;
+    height: 20px;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+}
+
+.price {
+    font-size: 20px;
+    margin: 0;
+}
+
+.container-price {
+    display: flex;
 }
