@@ -14,6 +14,14 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Frutiger LT Std';
+    src: url('FrutigerLTStd-Roman.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 /* font-family: gravesend-sans, sans-serif;
 font-weight: 500;
@@ -107,6 +115,7 @@ h1 {
 
 p {
     margin-top: 30px;
+    font-family: 'Frutiger LT Std';
 }
 
 h2 {
@@ -150,17 +159,15 @@ footer {
 }
 
 .title {
+    text-align: center;
     margin: 0;
+    font-size: 50px;
+    padding-top: 120px;
 }
 
 .title-fifties {
     font-family: 'Bodoni Std';
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
     text-align: center;
-    font-size: 50px;
-    padding-top: 120px;
 }
 
 .box {
@@ -213,4 +220,12 @@ footer {
 .container-price {
     display: flex;
     justify-content: flex-start;
+}
+
+.title-sixties {
+    font-family: synthemesc, sans-serif;
+}
+
+.title-seventies {
+    font-family: 'Amelia';
 }
