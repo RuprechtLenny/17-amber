@@ -6,3 +6,11 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Frutiger LT Std';
+    src: url('FrutigerLTStd-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
